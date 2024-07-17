@@ -85,7 +85,7 @@ int main(){
 	}
 	
 	//main code
-	for (int16_t i = playerCount-1; i >= 0; i--){
+	for (int16_t i = playerCount-2; i >= 0; i--){
 		if (rep[i] == 0){
 			coben[i] = coben[i+1];
 			continue;
@@ -180,12 +180,16 @@ int main(){
 	}
 	
 	//print the results
-	for (int16_t i = 0; i < playerCount; i++){
-		printf("Player #%d : %.18Lf %%\n", i+1, (long double)(coben[i] * 100ULL) / (long double)(fact[playerCount]));
+	long double tmp = 100 * elimCount;
+	for (int16_t i = 1; i < playerCount; i++){
+		long double ret = (long double)(coben[i-1] * 100ULL) / (long double)(fact[playerCount]);
+		printf("Player #%d : %.18Lf %%\n", i, ret);
+		tmp -= ret;
 	}
+	printf("Player #%d : %.18Lf %%\n", playerCount, tmp);
 	
-	printf("\nPress any key to exit");
-	std::getchar();
+//	printf("\nPress any key to exit");
+//	std::getchar();
 
     return 0;
 }
