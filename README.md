@@ -41,7 +41,7 @@ I am still pondering on the long runtime for big number of eliminations and athl
 
 If anyone spots any mistakes and bugs when using this calculator, please lemme know! I have to admit, I am not experienced with all of this stuff right yet, so if anyone is more well-versed with any parts of the project and is willing to help, I would be more than grateful.
 
-If you wanna run the source code, you're gonna need [Boost libraries](https://www.boost.org/) downloaded.
+If you wanna run the source code (`source_code.cpp`), you're gonna need [Boost libraries](https://www.boost.org/) downloaded.
 
 And finally, if you managed to scroll down here and ~~hopefully~~ read all of this... thank you so much!. If you need anything, please contact me via my Discord (yellowdude). Have a nice day! :sparkling_heart:
 
