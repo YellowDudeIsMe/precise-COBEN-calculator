@@ -16,7 +16,7 @@ Example of a valid input:
 100, 70, 50, 40, 30, 25, 20, 15, 12, 10, 8, 6, 4, 3, 2, 1,
 ```
 
-Once you finish, save the input file and run `print_results.exe`. A window will pop up and display the results. Usually, it runs in seconds for a few eliminations, but even in minutes for some 20-ish eliminations (which I hope you don't), depending on your hardware. So, if you input something like 69 athletes and 42 eliminations, better wait (and I mean it, take a break from your algathlon project or something lol).
+Once you finish, save the input file and run `print_results.exe`. A window will pop up and display the results. Usually, it runs in seconds for a few eliminations, but even in minutes for some 20-ish eliminations (which I hope you don't do), depending on your hardware. So, if you input something like 69 athletes and 42 eliminations, better wait (and I mean it, take a break from your algathlon project or something lol).
 
 The window may display results in this format:
 ```
