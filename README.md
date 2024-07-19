@@ -5,8 +5,7 @@ Open `input.txt` for input.
 - 2nd line: number of **eliminations**
 - 3rd line: a list of **athlete scores**. Separate using a comma, and also end the list with a comma
 - 4th line: a list of **event scores**. Separate using a comma, and also end the list with a comma
-- For 3rd and 4th lines, sort the lists in descending order (largest to smallest)
-- Make sure the number of athletes matches the list of athlete scores and event scores
+For 3rd and 4th lines, *sort* the lists in descending order (largest to smallest). Make sure the number of athletes *matches* the list of athlete scores and event scores.
 
 Example of a valid input:
 ```
@@ -28,7 +27,7 @@ Athlete #3 : 0.000000123456789 %
 Press any key to exit
 ```
 
-If you see the tag `(IMMUNE!)` next to an athlete, it means the athlete is *truly immune* and *cannot* be eliminated. Otherwise, it means the COBEN of that athlete is *too small* that it appears to be zero. So, from the example above, we would conclude that **Player #1** is *truly immune*, while **Player #2** has a *very very small* COBEN.
+If you see the tag `(IMMUNE!)` next to an athlete, it means the athlete is *truly immune* and *cannot* be eliminated. Otherwise, it means the COBEN of that athlete is *too small* that it appears to be zero. So, from the example above, we would conclude that **Athlete #1** is *truly immune* from elimination, while **Athlete #2** has a *very very small* COBEN.
 
 As instructed, press any key to exit the window.
 
@@ -41,7 +40,7 @@ I am still pondering on the long runtime for big numbers of eliminations and ath
 
 If anyone spots any mistakes or bugs when using this calculator, please lemme know! I have to admit, I am not experienced with all of this stuff right now, so if anyone is more well-versed with any parts of the project and is willing to help, I would be more than grateful.
 
-If you wanna run the source code (`source_code.cpp`), you're gonna need [Boost libraries](https://www.boost.org/) downloaded.
+If you wanna run the source code file (`source_code.cpp`), you're gonna need [Boost libraries](https://www.boost.org/) downloaded.
 
 And finally, if you managed to scroll down here and ~~hopefully~~ read all of this... thank you so much! If you need anything, you can contact me via my Discord (yellowdude). Have a nice day! :sparkling_heart:
 
