@@ -43,6 +43,6 @@ If anyone spots any mistakes or bugs when using this calculator, please lemme kn
 
 If you wanna run the source code (`source_code.cpp`), you're gonna need [Boost libraries](https://www.boost.org/) downloaded.
 
-And finally, if you managed to scroll down here and ~~hopefully~~ read all of this... thank you so much!. If you need anything, you can contact me via my Discord (yellowdude). Have a nice day! :sparkling_heart:
+And finally, if you managed to scroll down here and ~~hopefully~~ read all of this... thank you so much! If you need anything, you can contact me via my Discord (yellowdude). Have a nice day! :sparkling_heart:
 
 ~YellowDude
